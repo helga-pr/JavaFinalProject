@@ -1,7 +1,10 @@
 package org.itstep.prokopchik;
 
-public class Admin {
-    private String login;////unique e-mail
+    public class Admin {
+        /**
+         * must be an unique e-mail like login
+         */
+    private String login;
     private String password;
 
     public Admin() {

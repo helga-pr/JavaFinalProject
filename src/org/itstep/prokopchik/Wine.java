@@ -2,12 +2,36 @@ package org.itstep.prokopchik;
 
 public class Wine extends Product {
 
+    /**
+     * тип вина (тихое или игристое)
+     */
     private WineTypeEnum wineType;
+
+    /**
+     * цвет вина (белое красное или розовое)
+     */
     private WineColorEnum wineColor;
+    /**
+     *выдержка вина (ординарное, выдержанное, коллекционное)
+     */
     private WineAgeEnum wineAge;
+    /**
+     *вид вина по содержанию сахара (брют (для игристых вин), сухое, полусухое, полусладкое, сладкое)
+     */
     private WineSugarContentEnum wineSugarContent;
+    /**
+     *к какой коллекции (по оформлению бутылки, этикетки) относится (например, "Кружева", "Cramele", "Папирус", "Старокриковское")
+     */
     private WineCollectionEnum wineCollection;
 
+    /**
+     * конструктор по умолчанию
+     */
+    public Wine(){}
+
+    /**
+     *getters & setters
+     */
     public WineTypeEnum getWineType() {
         return wineType;
     }
@@ -48,6 +72,9 @@ public class Wine extends Product {
         this.wineCollection = wineCollection;
     }
 
+    /**
+     *override methods
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

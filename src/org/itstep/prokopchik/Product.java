@@ -5,6 +5,10 @@ abstract class Product {
     private String name;
     private Double price;
     private Double ndsRate;
+    private String image;
+    private String annotation;
+
+
 
     public String getName() {
         return name;
@@ -32,6 +36,22 @@ abstract class Product {
         this.ndsRate = ndsRate;
     }
 
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getAnnotation() {
+        return annotation;
+    }
+
+    public void setAnnotation(String annotation) {
+        this.annotation = annotation;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -41,7 +61,9 @@ abstract class Product {
 
         if (!name.equals(product.name)) return false;
         if (!price.equals(product.price)) return false;
-        return ndsRate.equals(product.ndsRate);
+        if (!ndsRate.equals(product.ndsRate)) return false;
+        if (image != null ? !image.equals(product.image) : product.image != null) return false;
+        return annotation.equals(product.annotation);
 
     }
 
@@ -50,15 +72,19 @@ abstract class Product {
         int result = name.hashCode();
         result = 31 * result + price.hashCode();
         result = 31 * result + ndsRate.hashCode();
+        result = 31 * result + (image != null ? image.hashCode() : 0);
+        result = 31 * result + annotation.hashCode();
         return result;
     }
 
     @Override
     public String toString() {
         return "Product{" +
-                "'" + name + '\'' +
+                "name='" + name + '\'' +
                 ", price=" + price +
                 ", ndsRate=" + ndsRate +
-                "%}";
+                ", image='" + image + '\'' +
+                ", annotation='" + annotation + '\'' +
+                '}';
     }
 }
