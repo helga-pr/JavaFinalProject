@@ -1,6 +1,7 @@
 package org.itstep.prokopchik.command;
 
 import org.itstep.prokopchik.Client;
+import org.itstep.prokopchik.database.dao.client.DAOClientImpl;
 import org.itstep.prokopchik.logic.LoginLogic;
 
 import javax.servlet.http.HttpServletRequest;
@@ -49,7 +50,7 @@ public class LoginCommand implements ActionCommand {
             else{
                 page = "/main.jsp";
                 Client client = new Client();
-                client = new DAOImpl().getclient(login);
+                client = new DAOClientImpl().getClient(login);
 
                 String fio = client.getLastname() + " " + client.getName() + " " + client.getMiddleName();
                 request.setAttribute("fio", fio);

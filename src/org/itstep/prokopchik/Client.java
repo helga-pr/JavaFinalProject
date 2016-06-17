@@ -1,5 +1,9 @@
 package org.itstep.prokopchik;
 
+/**
+ *
+ */
+
 public class Client {
     private String login;//unique e-mail. возможно работа с БД без id типа int?
     private String password;
@@ -14,7 +18,9 @@ public class Client {
 
     }
 
-    //methods
+    /**
+    *methods
+     */
 
     public String getLogin() {
         return login;
@@ -64,7 +70,7 @@ public class Client {
         this.contacts = contacts;
     }
 
-    /* (non-Javadoc)
+    /**
      * @see java.lang.Object#hashCode()
      */
     @Override
@@ -80,7 +86,7 @@ public class Client {
         return result;
     }
 
-    /* (non-Javadoc)
+    /**
      * @see java.lang.Object#equals(java.lang.Object)
      */
     @Override
@@ -141,7 +147,7 @@ public class Client {
         return true;
     }
 
-    /* (non-Javadoc)
+    /**
      * @see java.lang.Object#toString()
      */
     @Override
