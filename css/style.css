@@ -1,0 +1,191 @@
+body {background:#FFFFFF url(resources/lblue126.jpg) repeat; 
+margin:0px;
+text-align: center;}
+
+div.conteiner{width:50%;
+			margin: auto;
+			background:#FFFFFF url(resources/fonSnow.jpg);
+			float: center;
+/* 			border-left:2px solid gray; */
+/* 			border-right:2px solid gray;} */
+}
+
+
+div.head	{
+		margin:0 auto;
+		width:100%;
+		height:80px;
+		position:fixed;
+		background:#FFFFFF url(resources/lblue126.jpg) repeat;}
+
+div.ask{
+		width:100px;
+		height:80px;
+		position:fixed;
+		float:right;
+		right:0px;
+		top:650px;
+		border:0px solid blue;
+		font-size:15px;
+		}	
+div.ask img{width:100px;
+		height:80px;}		
+		
+div.conteinerCenter{
+float:center;
+height:100%;			
+background:#FFFFFF url(resources/fonSnow.jpg) repeat;
+width: 100%;			
+			}	
+					
+div.logo img{
+		height:80px;
+		float:left;}
+
+div.contacts {width:60%;
+			float:right;
+			margin:20px 0px 0px 0px;
+			font-size:22px;
+			}
+
+div.contacts table td img{height:20px;}
+
+
+
+div.menu{
+		height:120px;
+		float:right;
+		margin:-15px 15px 15px 15px;}
+	div.menu table {width:500px; }	
+	div.menu table td{font-size:17px;}	
+				
+
+/*три таба после шапки*/
+div.vidiofraimes{width:100%;
+		height:170px;
+		
+float:left;
+		background:#FFFF99 url(resources/texture-09.jpg) repeat-x;
+		margin:100px 0px 0px 0px;
+		border:4px solid gray;
+		}
+		
+		div.vidio1{width:30%; height:150px;border:2px dashed black; border-top-right-radius: 20px; margin: 7px 12px; float:left;}
+		div.vidio2{width:30%; height:150px;border:3px solid black; border-top-right-radius: 20px; margin:7px 12px; float:left;}
+		div.vidio3{width:30%; height:150px;border:2px dotted black;; border-top-right-radius: 20px; margin:7px 12px; float:left;}
+		
+		div.vidio1:hover{width:30%; height:150px;border:2px dashed green; border-top-right-radius: 20px; margin: 7px 12px; float:left;}
+		div.vidio2:hover{width:30%; height:150px;border:3px solid gray; border-top-right-radius: 20px; margin:7px 12px; float:left;}
+		div.vidio3:hover{width:30%; height:150px;border:2px dotted blue;; border-top-right-radius: 20px; margin:7px 12px; float:left;}
+		
+		div.vidiofpaimes iframe{width:95%}
+		
+		
+div.menuLeft{width:260px;
+		height:700px;
+		
+
+		
+		background:#FFFF99 url(resources/fonMarly.jpg);
+		margin:20px 0px 0px 0px;
+		border:4px solid gray;
+		
+		font-size:18px;
+		float:left;}
+		
+			div.menuLeft li{border-bottom:1px solid gray; text-align:left;}
+			
+			div.menuLeft a{text-decoration:none;}
+			
+div.banner{width:160px;
+		
+					
+		margin:0px 0px 0px 10px;
+		
+		float:bottom;
+		
+		}
+			
+			
+div.textwindow{width:700px;
+		height:575px;
+		background:#FFFF99 url(resources/fonMarly.jpg);
+		margin:20px 0px 0px 10px;
+		float:right;
+		border:4px solid grey;
+		
+		
+		padding:10px;}	
+		
+div.contacts-bottom{width:400px;
+		height:57px;
+		
+		background:#FFFF99 url(resources/fonMarly.jpg);
+		margin:20px 0px 0px 20px;
+		float:right;
+		border:4px solid grey;
+		padding:10px;
+		}			
+	
+	div.contacts-bottom p img{height:20px;}
+		
+	div.contacts-bottom p{width:90%;margin:10px 0px 0px 0px;font-size:18px;}
+		
+div.contacts-bottom table{width:600px;margin:25px 0px 0px 0px;}
+
+div.contacts-bottom table td{font-size:25px;}
+		
+		
+div.copyright{width:250px;
+		height:57px;
+		
+		background:#FFFF99 url(resources/fonMarly.jpg);
+		margin:20px 0px 0px 30px;
+		float:left;
+		
+		border:4px solid grey;
+		
+		padding:10px;}				
+		
+		
+
+p {text-align: justify;
+text-indent: 5%;
+line-height: 150%
+font-family: Tahoma;
+font-size: 150%;
+padding: 0% 3%;}
+
+h1, h2, h3, h4, h5, h6{
+					font-family: Arial;
+					padding: 1% 3%;}
+		
+a{color: blue}
+a:hover{color:red}
+
+hr{  border: 2px solid;
+  border-shadow: 4px 4px 8px 2px rgba(0,0,0,0.3) inset, 2px 1px 1px 0 rgba(188,35,35,0.51) ;}
+
+
+td{
+	align: left;
+	text-align: left;
+	padding: 8px;
+	bgcolor: fa8e47;
+}
+
+tr.account{
+	text-align: left;
+	padding: 2px;
+	font: normal 18px/1 "Times New Roman", Times, serif;;
+}
+tr.card{
+	text-align: left;
+	padding: 2px;
+	font: normal 16px/1 "Times New Roman", Times, serif;
+	color: blue;
+}
+
+.button{
+	padding = "10px"
+}
