@@ -4,28 +4,27 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="css/bootstrap.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css" type="text/css" media = "screen"/>
-<style> <%@include file="css/style.css" %> </style>
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" type="text/css" media = "screen"/>
+<style> <%@include file="/css/style.css" %> </style>
 
-<title>Торговый Дом &quotКрикова&quot</title>
+<title>Торговый Дом &quotCricova&quot</title>
 </head>
 	<body>
             <div class = "conteiner">
             <div class = "conteinerCenter">
                 <form action="/Controller">
 
-                    <h3>
-                       Для работы с системой войдите в свой аккаунт
-                    </h3>
-                <jsp:forward page="/web/index.jsp"/>
+                	 <jsp:forward page="/web/index.jsp"/>
+                </form>
+
 
             </div>
             </div>
 
                 </form>
 
-        <script type="text/javascript" src="js/jquery-ui.js"></script>
-		<script src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="/js/jquery-ui.js"></script>
+		<script src="/js/bootstrap.js"></script>
 	</body>
 </html>

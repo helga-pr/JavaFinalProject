@@ -4,8 +4,8 @@
 <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css" media = "screen"/>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media = "screen"/>
     <title>Error</title>
     </head>
 
