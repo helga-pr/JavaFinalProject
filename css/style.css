@@ -1,15 +1,21 @@
-body {background:#FFFFFF url(resources/lblue126.jpg) repeat; 
-margin:0px;
-text-align: center;}
+body {
+        background-image: url(resources/podgorii cer albastru departare vertical.jpg);
+        background-size: 100%;
+
+}
 
 div.conteiner{width:50%;
-			margin: auto;
-			background:#FFFFFF url(resources/fonSnow.jpg);
-			float: center;
+        margin: auto;
+        background:#FFFFFF url(resources/fonSnow.jpg);
+        float: center;
 /* 			border-left:2px solid gray; */
 /* 			border-right:2px solid gray;} */
 }
 
+.main-background{
+        background-image: url(resources/podgorii cer albastru departare vertical.jpg)
+        background-color: #FFFFFF;
+}
 
 div.head	{
 		margin:0 auto;

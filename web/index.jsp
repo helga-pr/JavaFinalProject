@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+<link href="../css/style.css" rel="stylesheet">
 <link href="../css/bootstrap.css" rel="stylesheet">
 <style> <%@include file="../css/bootstrap.css" %> </style>
 
@@ -16,14 +16,18 @@
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 2rem;
-   }
+    }
+   body{
+        background:url(../resources/podgorii cer albastru departare vertical.jpg);
+        background-size: 100%;
+        }
   </style>
 <title>Торговый Дом &quotКрикова&quot</title>
 </head>
-	<body>
+	<body class="main-background" >
                 <div class="container-fluid">
 
-                    <form name="index" method="POST" action="controller">
+                    <form name="index" method="POST" action="Controller">
                         <div class="row">
                             <div class="col-xs-10">Торговый Дом &quotКрикова&quot</div>
                             <div class="col-xs-2">
